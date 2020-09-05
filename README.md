@@ -1,6 +1,6 @@
 # MemeDetector
 This is my first computer vision deep learning project. It is motivated by the increasing amount of memes that I receive every day on my WhatsApp groups.
-The idea is to train a CNN that will be able to predict if an image is a meme in order to deleted from my device.
+The idea is to train a CNN that will be able to predict wheter an image is a meme or not in order to deleted from my device.
 
 ## 1. Data
 Some data was collected with the script called ```main.py```. I took it from this video: https://www.youtube.com/watch?v=cImRC-AZs48
