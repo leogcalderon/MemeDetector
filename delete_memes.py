@@ -12,7 +12,7 @@ def delete_memes(FOLDER,THRESHOLD,see_pred = False):
 
   FOLDER = str , images folder
   THRESHOLD = float, probability to decide if is a meme
-  see_pred = boolean, if it set to True, shows 15 predictions
+  see_pred = boolean, if it set to True, shows 20 predictions
                       and probabilities in order to decide the THRESHOLD (then you have to run the function again)
   '''
 
@@ -22,7 +22,7 @@ def delete_memes(FOLDER,THRESHOLD,see_pred = False):
   images = [FOLDER + i for i in images]
 
   if see_pred:
-    if len(images) >= 15:
+    if len(images) >= 20:
       sample = random.sample(images,20)
       f = plt.figure(figsize=(25, 20))
       rows = 5
