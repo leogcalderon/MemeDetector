@@ -9,7 +9,7 @@ If you want to try this model, you have to follow this steps:
      - Type delete_memes(
      - You have to specify the images folder, threshold and a see_pred argument.
      - If you want to look the predictions before you delete the images in order to decide the threshold to use, you have to pass the last argument to True.
-     - 0 it's meme and 1 it's normal photo.
+     - 0 --> meme and 1 --> normal photo.
      - Then, you will look some images and the probability assigned. 
      - Once you decide the threshold, put it in the script and it will delete all memes!
 
