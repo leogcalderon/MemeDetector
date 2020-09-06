@@ -76,4 +76,4 @@ def delete_memes(FOLDER,THRESHOLD,see_pred = False):
         os.remove(image)
         i += 1
 
-  print(f'{i} images removed')
+    print(f'{i} images removed')
